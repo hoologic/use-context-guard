@@ -2,7 +2,7 @@ import { Context, useContext } from 'react'
 
 // hooks
 
-export const useContextInit = <T>(context: Context<T>): Exclude<T, null> => {
+export const useContextGuard = <T>(context: Context<T>): Exclude<T, null> => {
   const localContext = useContext(context)
 
   if (localContext === null) {

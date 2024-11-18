@@ -3,7 +3,7 @@
   "description": "React hook ensuring context is used within its associated provider.",
   "license": "MIT",
   "name": "@hoologic/use-context-guard",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bugs": {
     "url": "https://github.com/hoologic/use-context-guard/issues"
   },
