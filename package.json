@@ -3,13 +3,13 @@
   "description": "React hook ensuring context is used within its associated provider.",
   "license": "MIT",
   "name": "@hoologic/use-context-guard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "bugs": {
     "url": "https://github.com/hoologic/use-context-guard/issues"
   },
   "devDependencies": {
-    "@types/react": "^16 || ^17 || ^18",
-    "typescript": "5.6.2"
+    "@types/react": ">=16.8",
+    "typescript": "5.7.3"
   },
   "files": [
     "index.d.ts",
@@ -24,7 +24,7 @@
     "useContextGuard"
   ],
   "peerDependencies": {
-    "react": "^16 || ^17 || ^18"
+    "react": ">=16.8"
   },
   "repository": {
     "type": "git",
